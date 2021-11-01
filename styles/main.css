@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    padding:10px;
+    margin:10px;
+    background-color:bisque;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+#nav-bar ul li{
+    list-style-type: none;
+    float:left;
+    padding-inline-end:80px;
+}
+
+.container{
+    display: flex;
+}
+
+.nav-link{
+    text-decoration:none;
+    color:black;
+    font-size: 30px;
+    border-radius: 5px;
+   
+}
+
+.level{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-style: normal;
+    color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-style: normal;
+    color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+#email{
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.product{
+    text-align:center;
+}
+
+#submit{
+    width: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:yellow;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+ol, li{
+    list-style-type: none;
+    
+}
+
+#how-it-works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+#pricing{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+.product{
+    border-color: #000000;
+    border-width: 5px;
+    border-style: solid;
+    margin: 20px;
+}
+
+.level{
+    background-color: aliceblue;
+    font-weight: bold;
+    height: 10%;
+}
+
+.btn{
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:yellow;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.foo ul li a{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+
+}
+
+.foo span{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
